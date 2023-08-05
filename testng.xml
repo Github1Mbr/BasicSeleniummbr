@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="TestNg.InnvoprioritycountTest"/>
+      <class name="TestNg.InvocationcountTest"/>
+      <class name="TestNg.Bothdependent"/>
+      <class name="TestNg.UsinglastTest"/>
+      <class name="TestNg.IntDataProviderPractice"/>
+      <class name="TestNg.Program1"/>
+      <class name="TestNg.TestngPractice1"/>
+      <class name="TestNg.Dependency10"/>
+      <class name="TestNg.PriorityTest"/>
+      <class name="TestNg.DataProviderPractice"/>
+      <class name="TestNg.dependendTest"/>
+      <class name="TestNg.Testngpractice"/>
+      <class name="TestNg.EnableDisavbleTest"/>
+      <class name="BasicSelenium.Testng1"/>
+      <class name="TestNg.AscimodifyupdownTest"/>
+      <class name="Pom.LoginToActiTimeApp"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

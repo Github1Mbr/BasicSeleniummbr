@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="BasicSelenium.Testng1">
+        <methods>
+          <include name="deleteCustomer"/>
+          <include name="createCustomer"/>
+          <include name="modifyCustomer"/>
+        </methods>
+      </class> <!-- BasicSelenium.Testng1 -->
+      <class name="TestNg.Bothdependent">
+        <methods>
+          <include name="createCustomer"/>
+          <include name="modifyCustomer"/>
+          <include name="deleteCustomer"/>
+        </methods>
+      </class> <!-- TestNg.Bothdependent -->
+      <class name="TestNg.dependendTest">
+        <methods>
+          <include name="createCustomer"/>
+        </methods>
+      </class> <!-- TestNg.dependendTest -->
+      <class name="TestNg.TestngPractice1">
+        <methods>
+          <include name="modifyCustomer"/>
+          <include name="deleteCustomer"/>
+          <include name="createCustomer"/>
+        </methods>
+      </class> <!-- TestNg.TestngPractice1 -->
+      <class name="TestNg.Dependency10">
+        <methods>
+          <include name="createCustomer"/>
+          <include name="modifyCustomer"/>
+        </methods>
+      </class> <!-- TestNg.Dependency10 -->
+      <class name="Pom.LoginToActiTimeApp">
+        <methods>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- Pom.LoginToActiTimeApp -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
